@@ -9,7 +9,7 @@ import 'package:stacked_services/stacked_services.dart';
   routes: [
     MaterialRoute(page: HomeView),
     MaterialRoute(page: StartupView),
-    // @stacked-route
+// @stacked-route
   ],
   dependencies: [
     LazySingleton(classType: DialogService),
